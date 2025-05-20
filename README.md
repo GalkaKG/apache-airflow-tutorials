@@ -4,12 +4,12 @@ A collection of tutorials and example DAGs to learn Apache Airflow — a platfor
 
 ## 📦 Project Structure
 
-├── dags/ # DAG definitions go here
-├── logs/
-├── plugins/
-├── docker-compose.yaml # Docker Compose setup for Airflow
-├── .env # Environment variables 
-└── README.md
+├── dags/ # DAG definitions go here <br>
+├── logs/ <br>
+├── plugins/ <br>
+├── docker-compose.yaml # Docker Compose setup for Airflow <br>
+├── .env # Environment variables <br>
+└── README.md <br>
 
 
 
@@ -53,3 +53,10 @@ You can access:
 - Username: airflow
 
 - Password: airflow
+
+
+To create a user in the apache airflow server use this command for example:
+
+```bash
+airflow users create --username admin --firstname firstname --lastname lastname --role Admin --email admin@admin.com
+```
